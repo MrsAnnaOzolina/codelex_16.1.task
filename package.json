@@ -7,7 +7,7 @@
     "start": "ts-node ./src/server.ts",
     "start:prod": "npm run build && node ./dist/src/server.js",
     "build": "npx tsc",
-    "start:nodemon": "./node_modules/nodemon/bin/nodemon.js"
+    "start:nodemon": "ts-node ./node_modules/nodemon/bin/nodemon.js"
   },
   "keywords": [],
   "author": "",
